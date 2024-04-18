@@ -11,6 +11,7 @@ u0 = layer_zero(Wm)
 v0 = layer_zero(Wf)
 
 # Context-independent input using Latent Semantic Analysis (LSA)
+d0 = (v0-u0)
 p0 = PCA(d0)
 
 # Iterate through layers
